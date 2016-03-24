@@ -23,7 +23,7 @@ def image_descriptors(file):
 
 def folder_descriptors(folder):
     files = glob.glob(folder + "/*.jpg")
-    print("Calculating descriptos. Number of images is", len(files))
+    print("Calculating descriptors. Number of images is", len(files))
     return np.concatenate([image_descriptors(file) for file in files])
 
 def likelihood_moment(x, ytk, moment):  
