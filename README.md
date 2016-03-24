@@ -7,6 +7,6 @@ Original: <a href="http://jacobcv.blogspot.in/2014/12/fisher-vector-in-python.ht
 
 How to Run:
 
-$ python fisher.py <path_to_image_directory> <vocabulary size>
+<code>$ python fisher.py <path_to_image_directory> <vocabulary size></code>
 
 Read the very well written blog to know more.
